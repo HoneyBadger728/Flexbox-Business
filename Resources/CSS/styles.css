@@ -1,0 +1,28 @@
+html {
+    font-size: 10px;
+    margin: 0;
+}
+
+.heading {
+}
+
+.heading h1 {
+    font-family: 'Gajraj One', cursive;
+    text-align: center;
+    font-size: 15vw;
+    font-weight: 400;
+    margin-top: -5vw;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 17vw;
+    width: 70%;
+    background-image: url(../Images/milad-fakurian-rPdxh2xl2-E-unsplash-crop.jpg);
+    background-size: cover;
+    background-position: top;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: black;
+}
