@@ -78,3 +78,25 @@ body {
     letter-spacing: .25rem;
     margin-top: 5vw;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: black;
+}
+
+.navbar ul {
+    width: 95%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: .25rem;
+}
+
+.navbar ul li {
+    font-size: 2rem;
+}
+
