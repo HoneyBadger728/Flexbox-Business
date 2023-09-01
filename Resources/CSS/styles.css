@@ -8,11 +8,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.heading {
-    
-}
-
-.heading h1 {
+.logo h1{
     font-family: 'Gajraj One', cursive;
     text-align: center;
     font-size: 15vw;
@@ -100,3 +96,43 @@ body {
     font-size: 2rem;
 }
 
+.heading {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.specs {
+    display: flex;
+    flex-flow: column;
+}
+
+.specsbox {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.specscontainer {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    flex: 1 1;
+    max-width: 45rem;
+}
+
+.specscontainer p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.imagenest {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: nowrap;
+}
+
+.specscontainer img {
+    flex: 1 1;
+    overflow: hidden;
+}
