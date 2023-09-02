@@ -101,6 +101,13 @@ body {
     font-size: 3rem;
 }
 
+.about {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
 .specs {
     display: flex;
     flex-flow: column;
@@ -110,7 +117,9 @@ body {
     display: flex;
     width: 90%;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .specscontainer {
@@ -119,11 +128,20 @@ body {
     flex-wrap: nowrap;
     flex: 1 1;
     max-width: 45rem;
+    max-height: 50rem;
+    margin: 1.5rem;
+}
+
+.spectrait {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1.5rem;
 }
 
 .specscontainer p {
     text-align: center;
     font-size: 1.5rem;
+    margin: .5rem;
 }
 
 .imagenest {
