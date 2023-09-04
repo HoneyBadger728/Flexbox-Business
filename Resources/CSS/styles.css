@@ -6,6 +6,7 @@ html {
 body {
     background-color: silver;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
 }
 
 .logo h1{
@@ -79,7 +80,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 1rem;
+    margin: 1rem auto;
     background-color: black;
     position: sticky;
     top: 0;
@@ -101,6 +102,7 @@ body {
 .heading {
     text-align: center;
     font-size: 3rem;
+    margin-top: 10rem;
 }
 
 .about {
@@ -129,9 +131,11 @@ body {
     flex-flow: column;
     flex-wrap: nowrap;
     flex: 1 1;
-    max-width: 45rem;
+    min-width: 50rem;
+    max-width: 75rem;
+    min-height: 40rem;
     max-height: 50rem;
-    margin: 1.5rem;
+    margin: 7rem 5rem;
 }
 
 .spectrait {
