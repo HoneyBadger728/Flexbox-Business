@@ -102,7 +102,8 @@ body {
 .heading {
     text-align: center;
     font-size: 3rem;
-    margin-top: 10rem;
+    margin-top: 4rem;
+    padding-top: 6rem;
 }
 
 .about {
@@ -159,4 +160,27 @@ body {
 .specscontainer img {
     flex: 1 1;
     overflow: hidden;
+}
+
+.scrollcontainer {
+    display: flex;
+    background-color:black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1rem;
+    width: 74rem;
+    margin: auto;
+    height: 80rem;
+}
+
+.card img {
+    padding: 2rem;
+    width: 70rem;
+}
+
+.card h3 {
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 1rem;
 }
