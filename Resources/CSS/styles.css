@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -107,15 +108,14 @@ body {
 }
 
 .about {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     width: 90%;
     margin: auto;
 }
 
 .specs {
-    display: flex;
-    flex-flow: column;
+    
 }
 
 .specsbox {
@@ -165,17 +165,24 @@ body {
 .scrollcontainer {
     display: flex;
     background-color:black;
-    overflow: auto;
+    overflow-x: auto;
     white-space: nowrap;
     padding: 1rem;
     width: 74rem;
     margin: auto;
     height: 80rem;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+  scroll-snap-align: center;  
 }
 
 .card img {
     padding: 2rem;
     width: 70rem;
+    
+    
 }
 
 .card h3 {
@@ -183,4 +190,32 @@ body {
     font-size: 2.8rem;
     text-align: center;
     margin-top: 1rem;
+}
+
+.regform {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.regform label {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.regform h3 {
+   font-size: 1.8rem;
+   text-align: center; 
+}
+
+.regform input[type=text], form input[type=password] {
+    width: 50%;
+    padding: 1.5rem;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+
 }
