@@ -108,10 +108,12 @@ body {
 }
 
 .about {
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
+    letter-spacing: .03rem;
+    line-height: 4rem;
 }
 
 .specs {
@@ -141,14 +143,15 @@ body {
 
 .spectrait {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin: 1.5rem;
 }
 
 .specscontainer p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: .5rem;
+    letter-spacing: .03rem;
 }
 
 .imagenest {
@@ -160,6 +163,8 @@ body {
 .specscontainer img {
     flex: 1 1;
     overflow: hidden;
+    border: .3rem solid black;
+    box-shadow: 1.2rem .8rem .7rem;
 }
 
 .scrollcontainer {
@@ -192,12 +197,28 @@ body {
     margin-top: 1rem;
 }
 
+.newslettercontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    width: 95%;
+}
+
+.contactcontainer {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    margin: auto;
+}
+
 .regform {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    flex: 1 1 70rem;
     margin: auto;
-    
+    border: 1px solid black;
+    padding: 3rem;
+    box-shadow: 1.2rem .8rem .7rem;
 }
 
 .regform label {
@@ -207,15 +228,47 @@ body {
 }
 
 .regform h3 {
-   font-size: 1.8rem;
-   text-align: center; 
+   font-size: 2rem;
+   
 }
 
 .regform input[type=text], form input[type=password] {
-    width: 50%;
+    width: 80%;
     padding: 1.5rem;
     display: block;
     border: none;
     background: #f1f1f1;
 
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70rem;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    padding: 3rem;
+    box-shadow: 1.2rem .8rem .7rem;
+}
+
+.contactinfo h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contactinfo p {
+    padding: 2rem; 
+}
+
+footer {
+    padding: 1rem 1.5rem;
+    background-color: black;
+}
+
+.footcontent {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 1vw;
+    letter-spacing: .05rem;
 }
